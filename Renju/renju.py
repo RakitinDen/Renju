@@ -231,7 +231,7 @@ class Controller():
         else:
             return
 
-        self._visual.draw_stone(x, y, str(self._game.player()), self._game.move_n())
+        self._visual.draw_stone(x, y, str(self._game.player().another()), self._game.move_n())
 
         if self._game.result() != Player.NONE:
             self._visual.draw_result(str(self._game.result()))
