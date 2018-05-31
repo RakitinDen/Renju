@@ -12,6 +12,7 @@ Firstly, install pip3.
 Using pip3, install following modules:
 1. NumPy, TKinter
 2. Tensorflow 1.8.0, Keras 2.1.6 and H5py
+
 Download folder "Renju".
 Launch command ./play.py
 
