@@ -3,6 +3,7 @@ This is a repository for educational project called "Renju" (in fact, it's more 
 
 Initially, as it was a "course work-like" project, we had to go deeper in machine learning. Educational tasks can be found at a folder "Labs".
 
-#Of course, this all could not happen without our mentor [Denis Simagin], that did a great work, and made our time spent for project not just useful, but really interesting.
+# Special
+Of course, this all could not happen without our mentor [Denis Simagin], that did a great work, and made our time spent for project not just useful, but really interesting.
 
 [Denis Simagin]:https://github.com/dasimagin
