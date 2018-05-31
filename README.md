@@ -1,4 +1,7 @@
-# Renju
+# Renju Project
+
+# Made by Rakitin Denis, student of the Faculty of Computer Science of HSE. Group 162.
+
 This is a repository for educational project called "Renju" (in fact, it's more about Gomoku), which aim is to build a model that would play 5-in-a-row on a high level.
 
 Initially, as it was a "course work-like" project, we had to go deeper in machine learning. Educational tasks can be found at a folder "Labs".
