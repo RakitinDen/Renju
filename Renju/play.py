@@ -18,6 +18,7 @@ def gameplay(mode):
     rollout = load_model('rollout.h5')
     root = Tk()
     ex = renju.Visual(root)
+
     if mode == 'B':
         mode = 'BlackVe'
         controller = renju.Controller(ex, mode, model2=tree.MCTS(policy=tree.large_model(model),
@@ -32,10 +33,10 @@ def gameplay(mode):
     else:
         controller = renju.Controller(ex, mode, model1=tree.MCTS(policy=tree.large_model(model),
                                                 rollout=tree.large_model(rollout)),
-                                                model2=tree.MCTS(policy=tree.large_model(rollout),
+                                                model2=tree.MCTS(policy=tree.large_model(model),
                                                 rollout=tree.large_model(rollout)))
+    
     root.mainloop()
-
 
 
 def main():

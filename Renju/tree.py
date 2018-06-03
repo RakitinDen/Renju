@@ -12,7 +12,7 @@ class large_model():
 
     def make_pred(self, board):
         pred = self._model.predict(np.reshape(board, [1, 15, 15, 1])).reshape((225))
-        pred * (board.ravel() == renju.Player.NONE)
+        pred *= (board.ravel() == renju.Player.NONE)
         return pred / np.sum(pred)
 
 
